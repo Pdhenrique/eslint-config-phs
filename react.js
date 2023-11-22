@@ -10,6 +10,7 @@ module.exports = {
     "plugin:jsx-a11y/recommended",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
+    'plugin:prettier/recommended',
     "prettier"
   ],
   "root": true,
@@ -32,6 +33,15 @@ module.exports = {
     "testing-library"
   ],
   "rules": {
+    'prettier/prettier': ["error", {
+      'printWidth': 80,
+      'tabWidth': 2,
+      'singleQuote': true,
+      'trailingComma': 'all',
+      'arrowParens': 'always',
+      'semi': false,
+      'endOfLine': 'auto',
+    }],
     "no-shadow": "off",
     "@typescript-eslint/consistent-type-imports": "error",
     "@typescript-eslint/no-import-type-side-effects": "error",
