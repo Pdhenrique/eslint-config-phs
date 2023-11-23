@@ -1,15 +1,15 @@
 {
   "name": "eslint-config-phs",
-  "version": "1.2.0",
+  "version": "1.4.0",
   "description": "",
   "main": "index.js",
   "license": "ISC", 
   "peerDependencies": {
     "eslint": "^8.0.0",
     "prettier": "^3.0.0",
-    "typescript": ">=4"
+    "typescript": ">=5"
   },
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.30.7",
     "@typescript-eslint/parser": "^5.30.7",
     "eslint-config-airbnb": "^19.0.4",
